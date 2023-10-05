@@ -6,10 +6,7 @@ body {
 }
 
 h1 {
-    color: #333;
     font-size: 28px;
-    margin-block-start: 0;
-    margin-block-end: 0;
 }
 
 hr {
@@ -35,7 +32,7 @@ a:hover {
     text-decoration: underline;
 }
 
-h2 {
+h1, h2, h3, h4, h5, h6 {
     color: #333;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -129,4 +126,15 @@ footer {
     text-transform: capitalize;
     cursor: pointer;
     font-weight: 600;
+}
+
+.college_info{
+    margin-top: .25rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.college_info span{
+    color: #797979;
 }
