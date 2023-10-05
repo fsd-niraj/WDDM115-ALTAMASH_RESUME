@@ -45,10 +45,6 @@ p {
     color: #555;
 }
 
-iframe {
-    width: 100%;
-}
-
 ul {
     list-style-type: disc;
     padding-left: 20px;
@@ -106,4 +102,12 @@ footer {
 
 .profile_image:hover {
     transform: scale(1.1);
+}
+
+.mt-2{
+    margin-top: .5rem;
+}
+
+.gap-2{
+    gap: .75rem;
 }
