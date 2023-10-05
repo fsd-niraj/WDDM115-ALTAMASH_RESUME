@@ -66,8 +66,17 @@ footer {
     box-sizing: border-box;
 }
 
+.p-1 {
+    padding: .5rem;
+    box-sizing: border-box;
+}
+
 .d-flex {
     display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 .content-j-c {
@@ -104,10 +113,20 @@ footer {
     transform: scale(1.1);
 }
 
-.mt-2{
+.mt-2 {
     margin-top: .5rem;
 }
 
-.gap-2{
+.gap-2 {
     gap: .75rem;
+}
+
+.chip_styles {
+    background-color: #e4e4e4;
+    padding: 6px 12px;
+    border-radius: 1rem;
+    font-size: 14px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-weight: 600;
 }
